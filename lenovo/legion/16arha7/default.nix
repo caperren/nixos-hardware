@@ -21,12 +21,12 @@ in
   services.xserver.dpi = 189;
 
   # Enable fingerprint reader
-  services.fprintd = {
-    enable = true;
-    package = pkgs.fprintd-tod;
-    tod = {
-      enable = true;
-      driver = pkgs.libfprint-2-tod1-elan;
-    };
-  };
+  #services.fprintd = {
+  #  enable = true;
+  #  package = pkgs.fprintd-tod;
+  #  tod = {
+  #    enable = true;
+  #    driver = pkgs.libfprint-2-tod1-elan;
+  #  };
+  #};
 }
